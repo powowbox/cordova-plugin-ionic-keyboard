@@ -5,10 +5,13 @@ This plugin has been designed to work seamlessly with `cordova-plugin-ionic-webv
  - https://github.com/ionic-team/cordova-plugin-ionic-webview
  - https://ionicframework.com/docs/wkwebview/
 
+## Purpose of this fork
+- Fix screen not scrolled when keyboard displayed on IOS 17 beta
+
 ## Installation
 
 ```
-cordova plugin add cordova-plugin-ionic-keyboard --save
+cordova plugin add https://github.com/powowbox/cordova-plugin-ionic-keyboard.git --save --noregistery
 ```
 
 ## Preferences
